@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TP 2</title>
+    <style>
+        .palabra_vertical {
+            writing-mode: vertical-rl; /* Esto rota el texto 90 grados en sentido de las agujas del reloj */
+            text-orientation: upright; /* Mantiene el texto en posición vertical */
+        }
+        table,
+        td,
+        th {
+        border: 1px solid black;
+        border-collapse: collapse;
+        padding: 5px;
+        }
+        table {
+        width: 100%;
+        }
+        </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="./index.html">home</a>
+                </li>
+                <li>
+                    <a href="./sections/login.html">Login</a>
+                </li>
+                <li>
+                    <a href="./sections/perfil.html">perfil</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <h1>Primera tabla</h1>
+    <table>
+        <tr>
+            <th><p>Nombre</p></th>
+            <th><p>Apellido</p></th>
+            <th><p>Edad</p></th>
+            <th><p>Nacionalidad</p></th>
+        </tr>
+        <tr>
+            <td><p>Agustin</p></td>
+            <td><p>Olbinsky</p></td>
+            <td><p>19</p></td>
+            <td><p>Argentina</p></td>
+        </tr>
+        <tr>
+            <td><p>Pepe</p></td>
+            <td><p>Argento</p></td>
+            <td><p>33</p></td>
+            <td><p>Argentina</p></td>
+        </tr>
+    </table>
+    <h2>Segunda tabla</h2>
+    <table>
+        <tr>
+            <th colspan="3">
+                <p>NOTAS</p>
+            </th>
+            <td>
+                <p>MAILS</p>
+            </td>
+            <td rowspan="5">
+                <p class="palabra_vertical">ALUMNOS</p>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>1</p>
+            </td>
+            <td>
+                <p>2</p>
+            </td>
+            <td>
+                <p>3</p>
+            </td>
+            <td>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=SxfkdtxbFFfmHnhBHNnTDRQbRmWPHnvCVgpdszdlBBbJDjzxlDXjlvtLLcbBckBcBNdtjjgKqNqWBPPNdzqPbzpbzLHlLdVGrDdgVvhVZCqkKdDDbRg" target="_blank">Agustinolbinsky@gmail.com</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>4</p>
+            </td>
+            <td>
+                <p>8</p>
+            </td>
+            <td>
+                <p>6</p>
+            </td>
+            <td>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=SxfkdtxbFFfmHnhBHNnTDRQbRmWPHnvCVgpdszdlBBbJDjzxlDXjlvtLLcbBckBcBNdtjjgKqNqWBPPNdzqPbzpbzLHlLdVGrDdgVvhVZCqkKdDDbRg" target="_blank">Agustinolbinsky@gmail.com</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>7</p>
+            </td>
+            <td>
+                <p>8</p>
+            </td>
+            <td>
+                <p>5</p>
+            </td>
+            <td>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=SxfkdtxbFFfmHnhBHNnTDRQbRmWPHnvCVgpdszdlBBbJDjzxlDXjlvtLLcbBckBcBNdtjjgKqNqWBPPNdzqPbzpbzLHlLdVGrDdgVvhVZCqkKdDDbRg" target="_blank">Agustinolbinsky@gmail.com</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <p>0</p>
+            </td>
+            <td>
+                <p>9</p>
+            </td>
+            <td>
+                <p>6</p>
+            </td>
+            <td>
+                <a href="https://mail.google.com/mail/u/0/#inbox?compose=SxfkdtxbFFfmHnhBHNnTDRQbRmWPHnvCVgpdszdlBBbJDjzxlDXjlvtLLcbBckBcBNdtjjgKqNqWBPPNdzqPbzpbzLHlLdVGrDdgVvhVZCqkKdDDbRg" target="_blank">Agustinolbinsky@gmail.com</a>
+            </td>
+        </tr>
+    </table>
+    
+</body>
+</html>

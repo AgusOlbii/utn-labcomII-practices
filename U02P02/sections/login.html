@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">home</a>
+                </li>
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+                <li>
+                    <a href="./perfil.html">perfil</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <h1>
+        Login
+    </h1>
+    <div>
+        <p>
+           Para poder logearse debe ingresar nombre de usuario y contraseña.
+        </p>
+    </div>
+    <form action="login" method="post">
+        <label for="usuario">Nombre de usuario:</label>
+        <input type="text" id="usuario" name="usuario" required><br>
+
+        <label for="clave">Contraseña:</label>
+        <input type="password" id="clave" name="clave" required><br>
+
+        <input type="checkbox" id="recordar" name="recordar">
+        <label for="recordar">Recordar mis datos</label><br>
+
+        <input type="submit" value="Iniciar Sesión">
+    </form>
+</body>
+</html>

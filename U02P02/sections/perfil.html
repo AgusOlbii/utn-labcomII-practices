@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="../index.html">home</a>
+                </li>
+                <li>
+                    <a href="./login.html">Login</a>
+                </li>
+                <li>
+                    <a href="./perfil.html">perfil</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <hr>
+    <h1>Perfil de estudiante</h1>
+    <div>
+        <fieldset>
+            <legend>Datos del estudiante</legend>
+            <label for="estudiante"></label>
+            <input type="text" value="ESTUDIANTE" size="8" readonly><br>
+
+            <label for="Nombre">Ingrese Nombre Completo</label>
+            <input type="text" name="name"><br>
+
+            <label for="email">Ingrese Email</label>
+            <input type="email" placeholder="aaa@gmail.com" name="email"><br>
+
+            <label for="edad">Ingrese su edad</label>
+            <input type="date" name="age" id="age"><br>
+
+            <label for="nacionalidad">Seleccione su nacionalidad</label>
+            <select name="nationality" id="nationality">
+                <option value="usa">Estados Unidos</option>
+                <option value="Argentina">Argentina</option>
+                <option value="brasil">Brasil</option>
+            </select><br>
+
+            <label for="laboral">Seleccione su situacion laboral</label>
+            <select name="laboral" id="laboral">
+                <option value="">Desempleado</option>
+                <option value="">En busqueda laboral</option>
+                <option value="">Trabajo Part Time</option>
+                <option value="">Trabajo FullTime</option>
+            </select><br>
+            <input type="button" value="Enviar">
+        </fieldset>
+    </div>
+
+    <div>
+        <fieldset>
+            <legend>Gustos del Estudiante</legend>
+            <label for="musica">Ingrese sus gustos musicales</label>
+            <input type="text" name="music"><br>
+
+            <label for="food">Seleccione cual de estas es su comida preferida</label>
+            <select name="food" id="food">
+                <option value="milanga">Milanesa</option>
+                <option value="pastas">Pastas</option>
+                <option value="asado">Asado</option>
+            </select><br>
+            <input type="checkbox" name="" id="">
+            <label for="check">Recordar mis datos</label><br>
+            <input type="button" value="Enviar">
+        </fieldset>
+    </div>
+
+</body>
+</html>
