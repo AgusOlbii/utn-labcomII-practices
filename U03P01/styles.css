@@ -1,6 +1,8 @@
+html{
+    background-color: rgb(245, 245, 245);
+}
 body{
     font-family: sans-serif;
-    background-color: rgb(245, 245, 245);
 }
 h1{
     font-size: 24px;
@@ -25,14 +27,16 @@ ul{
     border-color: blue; 
     list-style: none;
 }
-ul li{
+ul li {
     font-family: monospace;
     font-size: 18px;
     padding: 10px;
+    
+}
+ul li :hover{
     background-color: rgba(0, 0, 0, 0.1);
 }
 a{
-    color:black;
     font-weight: bold;
 }
 ul li a{
