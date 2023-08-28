@@ -22,7 +22,7 @@ ul{
     padding: 20px;
     border: 2px solid;
     max-width: 40%;
-    border-color: blue;
+    border-color: blue; 
     list-style: none;
 }
 ul li{
