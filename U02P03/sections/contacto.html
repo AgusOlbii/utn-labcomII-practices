@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/styles.css">
+    <title>MI PAGINA WEB</title>
+
+  </head>
+  <body>
+    <!-- Encabezado -->
+    <header>
+      <h1>Counter Strike</h1>
+    </header>
+    <div class="container">
+      <!-- Navegación / cotenedor izquierdo -->
+      <nav>
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./multimedia.html">Multimedia</a></li>
+          <li><a href="../sections/contacto.html">Contacto</a></li>
+        </ul>
+      </nav>
+      <!-- Contenedor principal -->
+      <main>
+        <section>
+          <h2>Contacto</h2>
+            <table>
+                <tr>
+                    <th><label for="usuario">Nombre:</label></th>
+                    <th><input type="text" id="nombre" name="nombre" required><br></th>
+                </tr>
+                <tr>
+                    <th><label for="mail">Email:</label>                    </th>
+                    <th><input type="email" id="mail" name="mail" required><br>                    </th>
+                </tr>
+                <tr>
+                    <th><label for="edad">Edad:</label></th>
+                    <th><input type="date" name="edad" id="edad"></th>
+                </tr>
+                <tr>
+                    <th><label for="color">Color preferido</label></th>
+                    <th><input type="color" name="color" id="color"></th>
+                </tr>
+                <tr>
+                    <th><label for="texto">Comentario</label></th>
+                    <th><textarea id="texto" name="texto" rows="4" cols="50" minlength="10"></textarea></th>
+                </tr>
+            </table>
+      </main>
+      <!-- Contenedor secundario / derecho -->
+      <div class="right">
+        <h2>Info</h2>
+        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit.</p>
+      </div>
+    </div>
+    <!-- Pie de Página-->
+    <footer>
+      <p>© copyright labcomII.com</p>
+    </footer>
+  </body>
+</html>
